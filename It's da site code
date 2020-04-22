@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Template</title>
+<title>Onion Juice</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="cybercity.ico" />
 <link rel="stylesheet" href="https://www.schools.com/css/4/.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
@@ -29,10 +30,10 @@ and is wrapped around the whole page content, except for the footer in this exam
 
 
   </header>
-  <button class="tablink" onclick="openPage('Home', this, '#1D3247')" id="defaultOpen">Home</button>
-<button class="tablink" onclick="openPage('News', this, '#1D3247')">News</button>
-<button class="tablink" onclick="openPage('Contact', this, '#1D3247')">Contact</button>
-<button class="tablink" onclick="openPage('About', this, '#1D3247')">About</button>
+  <button class="tablink" onclick="openPage('Home', this, '#1D3247')" id="defaultOpen">Начало</button>
+<button class="tablink" onclick="openPage('News', this, '#1D3247')">Съвети</button>
+<button class="tablink" onclick="openPage('Contact', this, '#1D3247')">Контакти</button>
+<button class="tablink" onclick="openPage('About', this, '#1D3247')">За сайта</button>
 
 
 
@@ -59,11 +60,10 @@ and is wrapped around the whole page content, except for the footer in this exam
 
       <!-- Blog entry -->
       <div class="container  margin padding-large grooveborder">
-        <div class="center">
-          <h3>Видове програмисти</h3>
+        <div>
+          <h3  class="center">Видове програмисти</h3>
          
-        <p>
-		Соло програмисти<br>
+        <h4>Соло програмисти</h4>
 
 Соло програмистите са програмисти които поемат сами работата поставена от определена фирма. Зависи от тяхната организация, те могат да се справят със всички поставени задачи или не могат да се справят сами. Тогава търсят помощ от фирмата, която им е поставила задачата или от…
 		</p>
@@ -87,7 +87,7 @@ and is wrapped around the whole page content, except for the footer in this exam
               <div class="col l10 m9">
                
                 <p class="whitewords">
-				<center><h4>Група от програмисти</h4><br>
+				<h4>Група от програмисти</h4><br>
 Групата от програмисти помага на програмистите да успеят в бързото и лесно осъществяване на малки и големи проекти. Фирмите се водят такива организации, защото там работят групи с групи от хора и се разпределя чесно работата на всеки работник. Някои хора намират приятели във тези организации или пък даже и партньор в любовта.</p><br></center>
               </div>
             </div>
@@ -113,7 +113,7 @@ and is wrapped around the whole page content, except for the footer in this exam
         <div class="justify">
          
 		 
-          <p class="whitewords">Позитивни качества на програмиста</p>
+          <h4 class="whitewords">Позитивни качества на програмиста</h4>
           <ol class="whitewords">
 		 
 		 <li>Заплатата е висока.</li>
@@ -124,7 +124,7 @@ and is wrapped around the whole page content, except for the footer in this exam
 
 		  </ol>
 
-          <p class="right"><button class="button black" onclick="myFunction('demo3')"><b>Продължение  </b> </button></p>
+          <p class="right"><button class="button black" onclick="myFunction('demo3')"><b>Продължение</b> </button></p>
           <p class="clear"></p>
           
           <!-- Comment field -->
@@ -236,7 +236,7 @@ and is wrapped around the whole page content, except for the footer in this exam
         </div>
         <div class=" row-padding  white">
           <div class=" col s6">
-            
+            <img src="..\images\kokoshka.jpg" alt="a real cool photo" width="342px" height="auto"></img>
           </div>
           <div class=" col s6">
        
@@ -261,6 +261,7 @@ and is wrapped around the whole page content, except for the footer in this exam
 
 
 	<div id="Contact" class="tabcontent row padding border">
+	<div class="right">
 	 <div class="grooveborderbottom">
       <div class=" white  margin">
         <div class=" container  padding  black">
@@ -290,24 +291,25 @@ and is wrapped around the whole page content, except for the footer in this exam
     <!-- END About/Intro Menu -->
     </div>
 	</div>
+	</div>
 
 <!-- Subscribe Modal -->
 <div id="subscribe" class="modal animate-opacity">
-  <div class=" modal-content" style="padding:32px">
+  <div class=" modal-content" >
     <div class=" container  overgray">
       <i onclick="document.getElementById('subscribe').style.display='none'" class="fa fa-remove  transparent  button  xlarge  right"></i>
       <h2 class=" wide whitewords">SUBSCRIBE</h2>
       <p class="whitewords">Join my mailing list to receive updates on the latest blog posts and other things.</p>
-      <p><input class=" input  border" type="text" placeholder="Enter e-mail"></p>
+	  <img src="..\images\kokoshka.jpg" alt="a real cool photo" width="342px" height="auto"></img>
       <button type="button" class=" button  block  padding-large  subblue  margin-bottom" onclick="document.getElementById('subscribe').style.display='none'">Subscribe</button>
     </div>
   </div>
 </div>
 
 <!-- Footer -->
-<footer class=" container  dark-grey footerback" style="padding:32px">
+<footer class=" container footerback" style="padding:32px">
   <a href="#" class=" button  black  padding-large  margin-bottom"><i class="fa fa-arrow-up  margin-right"></i>To the top</a>
-  <p>Създаден от CyberCityNetwork</p>
+  <p><span class="whitewords">Създаден от <span><span class="cybercitynetwork"><b>CyberCityNetwork</b></span></p>
 </footer>
 
 <script>
