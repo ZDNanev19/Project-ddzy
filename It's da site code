@@ -4,10 +4,7 @@
 <title>Onion Juice</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="shortcut icon" href="cybercity.ico" />
-<link rel="stylesheet" href="https://www.schools.com/css/4/.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+<link rel="shortcut icon" href="imagesboi\cybercity.ico" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="cssboi.css">
 </head>
@@ -22,7 +19,7 @@ and is wrapped around the whole page content, except for the footer in this exam
     <header class="display-container wide" id="home">
     <div class="display-left padding-large">
       <h1 class="text-white"></h1>
-      <h6><button class="button white padding-large large  hover-opacity-off overallbutton" onclick="document.getElementById('subscribe').style.display='block'">Важно</button></h6>
+      <h6><button class="button white padding-large large overallbutton" onclick="document.getElementById('subscribe').style.display='block'">Важно</button></h6>
     </div>
     <h1 class="xxxlarge shadowtext"><b>Животът на един програмист</b></h1>
     <h4 class="shadowtext">Добре дошли в блога, разказващ за <span class="tag">Живота на един програмист</span></h4>
@@ -31,7 +28,7 @@ and is wrapped around the whole page content, except for the footer in this exam
 
   </header>
   <button class="tablink" onclick="openPage('Home', this, '#1D3247')" id="defaultOpen">Начало</button>
-<button class="tablink" onclick="openPage('News', this, '#1D3247')">Още</button>
+<button class="tablink" onclick="openPage('News', this, '#1D3247')">Съвети</button>
 <button class="tablink" onclick="openPage('Contact', this, '#1D3247')">Контакти</button>
 <button class="tablink" onclick="openPage('About', this, '#1D3247')">За сайта</button>
 
@@ -235,7 +232,7 @@ and is wrapped around the whole page content, except for the footer in this exam
         </div>
         <div class=" row-padding  white">
           <div class=" col s6">
-            <img src="ccnt.png" alt="out logo" width="342px" height="auto"></img>
+            <img src="imagesboi\ccnt.png" alt="out logo" width="342px" height="auto"></img>
           </div>
           <div class=" col s6">
        
@@ -256,28 +253,16 @@ and is wrapped around the whole page content, except for the footer in this exam
 <div id="News" class="tabcontent row padding border">
 <div class="container margin padding-large grooveborder">
 	<div class="center">
-          <h3>В повечето професии се работи на компютър по цял ден. Не са само ИТ специалистите!</h3>
+          <h3>Оригинално заглавие</h3>
           
         </div>
 
         <div class="justify ">
-         
-          <p class="whitewords">Влезте в един типичен офис в една съвременна фирма или организация (само нека е съвременна организация, да не е общинската библиотека или пък кварталната гумаджийница). Примерно, представете си, че влизате в една банка, или във фирма за продажба и поддръжка на автомобили или пък в агенция за недвижими имоти или в туристическа агенция. Какво ще видите?</p>
-          <p class="right"><button class="button black" onclick="myFunction('demo2')"><b>Продължение</b></button></p>
-		   <p class="clear"></p>
 
-<!-- Comment field -->
-          <div id="demo2" style="display:none">
-            <div class="row">
-              <hr>
-              <div class="col l2 m3">
-               
-              </div>
-              <div class="col l10 m9">		 
-
-		 <un>
-<li>На вратата стои офис мениджърка: тя работи по цял ден на компютър, общува с клиенти и контрагенти по e-mail и чатове, а понякога общува и на живо, когато идват клиенти. Тя е целият ден на компютъра и трябва да следи офисния чат, а само понякога има и живи контакти с живи хора. Зависи от фирмата най-вече.</li><br>
-<li>Мениджърите работят денонощно на компютър (не само в работно време), а често и от телефона си. Те непрестанно следят мейли, чатове, преглеждат договори, оферти, протоколи, смятат финансови прогнози и резултати, разправят се със служителите, следят проектите, задачите и сроковете и пишат по чата или по друг електронен канал, за да наставляват хората, които ръководят. Всичко това става предимно електронно, през компютър или телефон. Понякога има и срещи на живо, но това е рядко. Обикновено мениджмънта пише 100-1000 чат съобщения / мейла на ден и има 2-3 срещи на живо. Мениджърите общуват предимно виртуално и голяма част от деня я прекарват вторачени в компютъра.</li><br>
+<h5><b>Офис мениджър</b></h5>
+<p>На вратата стои офис мениджърка: тя работи по цял ден на компютър, общува с клиенти и контрагенти по e-mail и чатове, а понякога общува и на живо, когато идват клиенти. Тя е целият ден на компютъра и трябва да следи офисния чат, а само понякога има и живи контакти с живи хора. Зависи от фирмата най-вече.</p>
+<h5><b>Мениджър</b></h5>
+<p>Мениджърите работят денонощно на компютър (не само в работно време), а често и от телефона си. Те непрестанно следят мейли, чатове, преглеждат договори, оферти, протоколи, смятат финансови прогнози и резултати, разправят се със служителите, следят проектите, задачите и сроковете и пишат по чата или по друг електронен канал, за да наставляват хората, които ръководят. Всичко това става предимно електронно, през компютър или телефон. Понякога има и срещи на живо, но това е рядко. Обикновено мениджмънта пише 100-1000 чат съобщения / мейла на ден и има 2-3 срещи на живо. Мениджърите общуват предимно виртуално и голяма част от деня я прекарват вторачени в компютъра.</p>
 <li>Маркетинг отделът изцяло работи на компютър и се е пренесъл в дигиталния свят (нали говорим за съвременните фирми, не за Пенка пощаджийката на село). Арт хората рисуват реклами, дизайни, сайтове, брошури, банери, какво ли не. Маркетинг специалистите комуникират дигитално (по мейл, чат, FB и други социални мрежи, понякога и по телефон), пускат кампании, проследяват кампаниите, менажират реакциите в социалните мрежи, във видео каналите, в банер мрежите и т.н. Всичко става електронно. Копирайтинг / ПР специалистите подготвят и публикуват съдържание, пишат текстове, но всъщност те също не общуват на живо твърде често. Маркетингът се е дигитализирал в съвременните офиси. Отново страда общуването лице в лице. Отново имаме вторачени по цял ден в компютъра маркетинг специалисти.</li><br>
 <li>Отдел продажби: съвременния sales специалист работи по цял ден на компютъра (подготвя оферти, договори и представяния) с изключение на времето, в което пътува за срещи (тогава е залепнал на телефона и отговаря на въпросите от фирмения чат) или провежда среща с потенциални клиенти / партньори. При специалистите по продажба все още има голяма доза общуване на живо и по телефона, но не е при всички. Като че ли sales хората са се дигитализирали само частично. В някои фирми пък срещите на живо са 100% заменени със срещи във виртуалното пространство (например по Skype). При международните компании повечето срещи са онлайн. В крайна сметка и sales отделът общува предимно по електорнен път.</li><br>
 <li>Отдел финанси: 100% работа на компютър и комуникация по електорнен път. Макар и времето на хартиените фактури да не е напълно отминало, всички финансови операции, цялото счетоводство и комуникация на тема плащания се прави по дигитален път. Счетоводителката говори по телефона или на живо само когато има спешен и сериозен проблем. Иначе ще я откриете в офисния чат.</li><br>
@@ -287,33 +272,12 @@ and is wrapped around the whole page content, except for the footer in this exam
 <li>Отдел производство: в този отдел е единственото място, където в някои фирми може да се работи и без компютър (примерно ако е цех за шиене на дрехи или ферма за кашкавал). В някои фирми производството е изцяло дигитално и всички работят по цял ден на компютри (например в ИТ фирмите, кол центровете и телекомите), а в други е изцяло безкомпютърно, а на места е смесено. Зависи от фирмата, но дигитализацията е навсякъде и все по-рядко се работи и общува без компютър.</li><br>
 <li>Отдел поддръжка: в този отдел обикновено се занимават с клиентите на фирмата и техните проблеми, искания, търсения, заявки, прищевки и т.н. Почти винаги се работи с ticketing система, т.е. по цял ден на компютъра, и под голям стрес. В съвременните организации всички заявки от клиенти влизат в някаква система и през нея се проследява тяхното разрешаване през различните стъпки от процеса. Понякога отдел поддръжка говорят много по телефона, но зависи доста от фирмата. Има и фирми, където се виждаш с клиентите на живо, но това е по-скоро изключение.</li><br>
 <li>Има и други отдели, разбира се, зависи от фирмата и нейната дейност. И във всички тях или се работи предимно на компютър или работата на компютър е само малка част от работния ден. Например, един лекар работи на компютър само докато си пише документите и отчетите, но работи на живо през повечето време. Един готвач работи почти изцяло на живо. Да, има отдели и професии, които не са дигитализирани, но във всяка съвременна фирма има хора, които работят на компютъра по цял ден. Те ли са потенциалните кандидати да бъдат асоциални, зомбирани и “дигитално превъртели” или това са просто фантазиите на бабите?</li><br>
-</un>		  
+		  
 
-</div>
  </div>
-            <div class="row margin-bottom">
-              <div class="col l2 m3">
-               
-              </div>
-              <div class="col l10 m9">
-			  
-			 </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-
-<div class="center">
-          <h3>Извод: съвременните професии изискват да работиш по цял ден на компютъра, не са само ИТ специалистите</h3>
-</div>
-<p class="whitewords"></p>
-
-<li></li>
-<li></li>
+          
 		  </div>
 		  </div>
-</div>
 
 <div id="About" class="tabcontent row padding border">
 <img src="..\images\covid-20.png" alt="bnn2 img"></img>
@@ -344,13 +308,10 @@ and is wrapped around the whole page content, except for the footer in this exam
         </div>
 <div class="bar black hide-small">
   <a href="https://www.facebook.com/codingburgas/" class="bar-item button" target="_blank"><i class="fa fa-facebook-official"></i></a>
-  <a href="https://codingburgas.bg/" class="bar-item button" target="_blank"><i><img src="ПГКПИ лого проект.png" alt="out logo" width="21px" height="auto"></img></i></a>
+  <a href="https://codingburgas.bg/" class="bar-item button" target="_blank"><i><img src="imagesboi\pgkpi.png" alt="out logo" width="21px" height="auto"></img></i></a>
 </div>
       </div>
 	  </div>
-	  
-      
-      <!-- Subscribe -->
 	
 	</div>
 	</div>
@@ -368,7 +329,7 @@ and is wrapped around the whole page content, except for the footer in this exam
 </div>
 
 <!-- Footer -->
-<footer class=" container footerback" style="padding:32px">
+<footer class=" container footerback grooveborderheader" style="padding:32px">
   <a href="#" class=" button  black  padding-large  margin-bottom"><i class="fa fa-arrow-up  margin-right"></i><b>До началото</b></a>
   <p><span class="whitewords">Създаден от <span><span class="cybercitynetwork"><b>CyberCityNetwork</b></span></p>
 </footer>
