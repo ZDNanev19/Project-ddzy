@@ -4,8 +4,7 @@
 <title>Onion Juice</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="shortcut icon" href="images\cybercity.ico" />
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="shortcut icon" href="images/cybercity.ico" />
 <link rel="stylesheet" href="cssboi.css">
 </head>
 <body>
@@ -112,7 +111,7 @@ and is wrapped around the whole page content, except for the footer in this exam
          
 		 
           <h4 class="whitewords">Позитивни качества на програмиста</h4>
-          <ol class="whitewords">
+          <ul class="whitewords">
 		 
 		 <li>Заплатата е висока.</li>
 		  <li>Научава се разнообразна информация.</li>
@@ -120,7 +119,7 @@ and is wrapped around the whole page content, except for the footer in this exam
 		  <li>Може да се работи на последния етаж на небостъргач.</li>
 		  <li>Ако шефа се грижи за работниците си, те могат да получат безплатна карта за фитнес.</li>
 
-		  </ol>
+		  </ul>
 
           <p class="right"><button class="button black" onclick="myFunction('demo3')"><b>Продължение</b> </button></p>
           <p class="clear"></p>
@@ -194,32 +193,32 @@ and is wrapped around the whole page content, except for the footer in this exam
 	  <div class="grooveborderbottom">
       <div class=" white  margin">
         <div class=" container  padding  black">
-          <h4>Popular Posts</h4>
+          <h4>Сайтът е направен от:</h4>
         </div>
         <ul class=" ul  hoverable  white blackwords">
           <li class=" padding-16">
            
-            <span class=" large">Denim</span>
+            <span class=" large">Живко Нанев</span>
             <br>
-            <span>Sed mattis nunc</span>
+            <span>Водач на отбора, програмист</span>
           </li>
           <li class=" padding-16">
           
-            <span class=" large">Sweaters</span>
+            <span class=" large">Даниел Георгиев</span>
             <br>
-            <span>Praes tinci sed</span>
+            <span>Главен програмист, дизайнер</span>
           </li>
           <li class=" padding-16">
            
-            <span class=" large">Workshop</span>
+            <span class=" large">Добрин Пейчев</span>
             <br>
-            <span>Ultricies congue</span>
+            <span>Набавител на информация, програмист</span>
           </li>
           <li class=" padding-16">
             
-            <span class=" large">Trends</span>
+            <span class=" large">Йоан Танев</span>
             <br>
-            <span>Lorem ipsum dipsum</span>
+            <span>Дизайнер на презентацията</span>
           </li>
         </ul>
       </div>
@@ -232,14 +231,17 @@ and is wrapped around the whole page content, except for the footer in this exam
         <div class=" container  padding  black">
           <h4>Вдъхновение</h4>
         </div>
-        <div class=" row-padding  white">
-          <div class=" col s6">
-            <img src="images\ccnt.png" alt="out logo" width="342px" height="auto"></img>
+		<div class=" row-padding  white">
+          <div class=" col s12">
+		  <div class="justify center">
+            <p>Вдъхновението ни дойде от всички програмисти по света, даващи пример на нас, новото поколение, какво можем да получим, ако се стараем и работим усилено.
+		Благодарим ви и за цялата работа, която сте свършили. Ще се стараем да бъдем като вас: сериозни в работата, отговорни, добре организирани и амбициозни.</p>
           </div>
-          <div class=" col s6">
-       
-         </div>
+		  </div>
         </div>
+		<div>
+		<img src="images/programming.jpg" class="grooveborder" width="403px" height="auto">
+		</div>
       </div>
       </div>
  
@@ -324,7 +326,7 @@ and is wrapped around the whole page content, except for the footer in this exam
 <p>Програмистите и ИТ специалистите са нормални хора, дори са търсени от съвременните жени заради интелигентност, добри доходи, добри обноски, добра обща култура, добро възпитание, стабилност и прогресивно мислене. Ще ги срещнете и по баровете и по спортните зали и по групите за танци и по социалните събития и по детските центрове. Те са много, те са навсякъде, те са нормални!</p><br>
 <p>Да станеш ИТ специалист вече е на мода. Проучвания сред завършващите училищата показват, че вече да си програмист, дизайнер, QA инженер, мрежар, системен администратор и всякакъв друг ИТ специалист е модна професия. Така все повече нормални хора се захващат с програмиране и технологии и ИТ секторът все повече се балансира. Отново повтарям: в миналото имаше доста асоциални ИТ специалисти, сега са рядкост, по-скоро изключение.</p><br> 
 <p>Индивидуално различните представители на ИТ професиите, като характер и личностни качества може да имат различия, разбира се, не всеки е грижовен или чувствителен или пък екстроверт, но като цяло ИТ специалистите са нормални хора! Запомнете това. Ако не вярвате, запознайте се с ИТ специалисти и си направете собствено наблюдение.</p><br>
- <p>Болшинството хора от дигиталните професии са съвсем нормални, добре изглеждащи, поддържани, комуникативни, интелигентни, образовани, умни, с широки интереси, будни, активни, действащи, социални, с отношение към дом, семейство, приятели, общество, култура, изкуство, спорт и духовно развитие. Те са хубави хора, те са цвета на нацията, те са пример за обществото, те са първа класа граждани на България и на Европа!</p><br>
+<p>Болшинството хора от дигиталните професии са съвсем нормални, добре изглеждащи, поддържани, комуникативни, интелигентни, образовани, умни, с широки интереси, будни, активни, действащи, социални, с отношение към дом, семейство, приятели, общество, култура, изкуство, спорт и духовно развитие. Те са хубави хора, те са цвета на нацията, те са пример за обществото, те са първа класа граждани на България и на Европа!</p><br>
  
 		 </div>
 		 </div>
@@ -332,6 +334,60 @@ and is wrapped around the whole page content, except for the footer in this exam
 		 </div>
 	</div>
 	<!-- End of Blog entry5 -->
+	
+	<!-- Blog entry6 -->
+	<div class="container margin padding-large grooveborder">
+		<div class="center">
+			<h3>Плюсове и минуси на професията "програмиране"</h3>
+			<h4>За да видите повече информация за професията "програмиране", натиснете бутона "Продължение"</h4>
+				 
+		</div>
+
+		<p class="right"><button class="button black" onclick="myFunction('demo6')"><b>Продължение</b> </button></p>
+		<p class="clear"></p>
+		 
+		<!-- Продължение -->
+		<div id="demo6" style="display:none">
+			<hr>
+			<div class="row margin-bottom">
+				<div class="m3">
+				<div class="justify ">
+
+					<h3>Да започнем с изброяване на някой от предимствата на професията програмист:</h3>
+					<ul>
+						<h4><b>Търсене:</b></h4>
+						<li>Както бе споменато по-горе, в дните на високите технологии с познания по компютърни науки и компютризация, много пътища ще бъдат отворени за вас. Основното нещо е наистина да имате знание, а не да създавате илюзия за обкръжаващите.</li>
+						<h4><b>Заплата:</b></h4>
+						<li>Ако говорим за работа само в програмирането, можете да печелите много добре. Домашните посещения за диагностициране на компютърен софтуер не са евтини, а ако има някаква повреда, ако има и част, която трябва да бъде заменена, тогава можете да направите добри пари с едно посещение.</li>
+						<h4><b>Самообразование:</b></h4>
+						<li>Ако имате сериозни умения по математика, тогава завършването на технически университет ще ви даде добра база и основа за овладяване на професията програмист.</li>
+						<h4><b>Растеж в кариерната стълба:</b></h4>
+						<li>Тук може да се кажете на кратко, възможностите са неограничени. Колкото повече учите и практикувате, толкова по-високо се издигате, всичко зависи само от вас.</li>
+						<h4><b>Отдалечена работа:</b></h4>
+						<li>С други думи, вие сте си шеф. Не вашите връзки се ценят, а знанието и способността да се справите с всеки проблем в техниката.</li>
+						<h4><b>Лингвистичен:</b></h4>
+						<li>Тъй като в много работи се използват англоезични източници.</li>
+					</ul>
+						<hr>
+					<h3>Да продължим с изброяването на някои минуси на професията программист:</h3>
+					<ul>
+						<h4><b>Количеството работа:</b></h4>
+						<li>Представете си, че сте служител на голяма компания и е страшно да си представите с колко данни ще трябва да работите и колко време ще отнеме това. </li>
+						<h4><b>График:</b></h4>
+						<li> Графикът в такава професия не е нормиран. Понякога има много работа и няма време да я свършиш, други път пълно затишие. От това нито един програмист не е застрахован.</li>
+						<h4><b>Конкуренция:</b></h4>
+						<li>Сега всеки мисли, че програмистите са много търсени, това е вярно, но и програмистите стават все повече и повече. В този случай започва борбата за клиенти. Ако имате репутация на добър програмист с приемливи цени на услугите, с добри препоръки и отзиви можете да съберете много добра клиентела. Но и това отнема време, година, няколко години.</li>
+						<h4><b>Начин на живот:</b></h4>
+						<li>В професията програмист, начинът на живот винаги е пасивен. Въз основа на това следват различни здравословни проблеми: на първо място страда гръбначния стълб, след това отслабване на мускулите и така нататък. Но най-много страда зрението. Очите са в постоянно напрежение от екрана с цифри, букви и различни символи.</li>
+
+					</ul>
+
+				</div>
+				</div>
+			</div>
+		</div>
+	</div>
+<!-- End of Blog entry6 -->
 </div>
 <!-- END OF TAB-->
 		  
@@ -343,13 +399,6 @@ and is wrapped around the whole page content, except for the footer in this exam
             \___)
 
 -->
-
-<!-- id About -->
-<div id="About" class="tabcontent row padding border">
-<img src="images\puik.png" alt="The best image you've ever seen"></img>
-</div>
-<!-- END OF TAB -->
-
 
 <!-- id Contact -->
 <div id="Contact" class="tabcontent row padding border">
@@ -376,8 +425,8 @@ and is wrapped around the whole page content, except for the footer in this exam
           <h4>Последвайте ни</h4>
         </div>
 <div class="bar black hide-small">
-  <a href="https://www.facebook.com/codingburgas/" class="bar-item button" target="_blank"><i class="fa fa-facebook-official"></i></a>
-  <a href="https://codingburgas.bg/" class="bar-item button" target="_blank"><i><img src="images\pgkpi.png" alt="out logo" width="21px" height="auto"></img></i></a>
+  <a href="https://www.facebook.com/codingburgas/" class="bar-item button" target="_blank"><img src="images/facebook.png" width="18px" height="auto"></img></a>
+  <a href="https://codingburgas.bg/" class="bar-item button" target="_blank"><img src="images/pgkpi.png" alt="out logo" width="21px" height="auto"></img></a>
 </div>
       </div>
 	  </div>
@@ -386,21 +435,41 @@ and is wrapped around the whole page content, except for the footer in this exam
 	</div>
 <!-- END OF TAB -->
 
+<!-- id About -->
+<div id="About" class="tabcontent row padding border">
+	<div class="col l8 s12">
+		<div class="container margin padding-large grooveborder">
+		<div class="center">
+			<h3>История на сайта</h3>
+		</div>
+
+		<div class="justify ">
+			
+			<p class="whitewords">Идеята за сайта дойде от лидера на групата, Живко Нанаев и бе развита в рамките на 22 дни.</p>
+			<p class="whitewords">Първита 2 дни преминаха с развиване, мисленв и подхвърляне на идеи по темата, докато на третия ден не започна струенето на сайта.</p>
+			
+		</div>
+		</div>
+	</div>
+	<img src="images\puik.png" alt="The best image you've ever seen"></img>
+</div>
+<!-- END OF TAB -->
+
 <!-- Button -->
 <div id="subscribe" class="modal animate-opacity">
-  <div class=" modal-content" style="padding:8px">
+  <div class=" modal-content" style="padding:5px">
     <div class=" container  overgray">
-      <i onclick="document.getElementById('subscribe').style.display='none'" class="fa fa-remove  transparent  button  xlarge  right"></i>
-      <h2 class=" wide whitewords">SUBSCRIBE</h2>
-      <p class="whitewords">Join my mailing list to receive updates on the latest blog posts and other things.</p>
-	  <img src="..\images\kokoshka.jpg" alt="a real cool photo" width="342px" height="auto"></img>
+      <i onclick="document.getElementById('subscribe').style.display='none'" class="button right"><img src="images/xbutton.png" width="20px" height="20px"></img></i>
+      <h2 class=" wide whitewords center"><b>   ВАЖНО!!!</b></h2>
+      <p class="whitewords center xlarge">Това е бета версия на сайта и в бъдеще няма да бъде редактиран от администраторите!</p>
+	  <img src="..\images\kokoshka.jpg" alt="a real cool photo" class="warning-pic" width="852px" height="300"></img>
     </div>
   </div>
 </div>
 
 <!-- Footer -->
 <footer class=" container footerback grooveborderheader" style="padding:32px">
-  <a href="#" class=" button  black  padding-large  margin-bottom"><i class="fa fa-arrow-up  margin-right"></i><b>До началото</b></a>
+  <a href="#" class=" button  black  padding-large  margin-bottom"><img src="images/uparrow.png" class="margin-right" width="15px" height="auto"><b>До началото</b></a>
   <p><span class="whitewords">Създаден от <span><span class="cybercitynetwork"><b>CyberCityNetwork</b></span></p>
 </footer>
 
