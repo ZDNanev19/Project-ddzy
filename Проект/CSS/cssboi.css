@@ -8,7 +8,7 @@ color: white;
 font-family: Arial, Helvetica, sans-serif;
 }
 body{
-background-image: url(bacc.png);
+
 background-repeat: no-repeat;
 background-attachment: fixed;
 background-size: cover;
@@ -116,9 +116,12 @@ img{vertical-align:middle}a{color:inherit}
 .black,.hover-black:hover{color:#fff!important;background-color:#000!important}
 .text-white,.hover-text-white:hover{color:#fff!important}
 .overgray,.hover-overgray:hover{color:#000!important;background-color:#254866!important}
-.subblue,.hover-subblue:hover{color:#E8EDF4!important;background-color:#041835!important}
+.subblue,.hover-subblue:hover{
+	color:#E8EDF4!important;
+	background-color:#041835!important;
+	}
 /* Backgrounds */
-.headback{background-image: url(deed.png)}
+.headback{background-image: url(pictures/deed.png)}
 .footerback{background-image: url(deed2.png)}
 /* Other */
 .cursoregg{
@@ -229,11 +232,11 @@ body::-webkit-scrollbar-thumb:hover{
 }
 
 
-#Home {background-image: url("bacc.png");
+#Home {background-image: url("pictures/bacc.png");
 background-attachment: fixed;}
-#News {background-image: url("bacc.png");
+#News {background-image: url("pictures/bacc.png");
 background-attachment: fixed;}
-#Contact {background-image: url("bacc.png");
+#Contact {background-image: url("pictures/bacc.png");
 background-attachment: fixed;}
-#About {background-image: url("bacc.png");
+#About {background-image: url("pictures/bacc.png");
 background-attachment: fixed;}
