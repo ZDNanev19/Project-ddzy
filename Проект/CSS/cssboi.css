@@ -14,10 +14,10 @@ h1, h3, a, h4, h5, h6, i
 	font-family: Arial, Helvetica, sans-serif;
 }
 body{
-	background-image: url(images/bacc.png);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
+	margin:0
 }
 .fa-coding-official:before{
 	content:"\f015"
@@ -40,9 +40,6 @@ box-sizing:border-box
 html{
 	-ms-text-size-adjust:100%;
 	-webkit-text-size-adjust:100%
-}
-body{
-	margin:0
 }
 footer,header{
 	display:block
@@ -390,10 +387,15 @@ img{
 	color:#E8EDF4!important;
 	background-color:#041835!important;
 	}
-/* Backgrounds */
-.headback{background-image: url(pictures/deed.png)}
-.footerback{background-image: url(deed2.png)}
 /* Other */
+.sticky {
+  position: sticky;
+  top: 0;
+}
+.centerdiv {
+  margin: auto;
+  width: 60%;
+}
 .cursoregg{
 	cursor: default;
 }
@@ -421,6 +423,11 @@ background: rgba(192, 223, 229, 0.17)}
 .overallbutton{transition: width 1s, height 1s, transform 2s;transition-delay: 0s;}
 .overallbutton:hover{
   transform: rotate(360deg);}
+.programmingpic{
+  margin-top: 5px;
+  margin-bottom: 15px;
+  margin-right: 10px;
+}
 /* Scrollbar */
 body::-webkit-scrollbar{
 	width: 15px;
@@ -470,8 +477,6 @@ body::-webkit-scrollbar-thumb:hover{
 .tab2 {
   overflow: hidden;
   background-image: url(blueboi.jpg);
-  width: 121px;
-  height: 1000px;
 }
 
 /* Style the buttons inside the tab */
@@ -480,7 +485,7 @@ body::-webkit-scrollbar-thumb:hover{
   border-style: none solid solid solid;
   display: block;
   background-color: #434987;
-  width: 100%;
+  width: 25%;
   color: white;
   float: left;
   outline: none;
