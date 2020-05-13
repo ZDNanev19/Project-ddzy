@@ -44,6 +44,9 @@ html{
 footer,header{
 	display:block
 }
+nav{
+	display: block;
+}
 a{
 	background-color:transparent
 }
@@ -373,20 +376,33 @@ img{
 .padding{padding:8px 16px!important}
 .padding-large{padding:12px 24px!important}
 .padding-16{padding-top:16px!important;padding-bottom:16px!important}
-.padding-48{padding-top:48px!important;padding-bottom:48px!important}
-.left{float:left!important}.right{float:right!important}
-.button:hover{color:#000!important;background-color:#ccc!important}
-.transparent{background-color:transparent!important}
-.transparentwords{color: rgba(192, 223, 229, 0)}
-/* Colors */
-.white,.hover-white:hover{color:#000!important;background-color:#fff!important}
-.black,.hover-black:hover{color:#fff!important;background-color:#000!important}
-.text-white,.hover-text-white:hover{color:#fff!important}
-.overgray,.hover-overgray:hover{color:#000!important;background-color:#254866!important}
-.subblue,.hover-subblue:hover{
-	color:#E8EDF4!important;
-	background-color:#041835!important;
-	}
+.padding-48{
+	padding-top:48px;
+	padding-bottom:48px;
+}
+.left{
+	float:left;
+}
+.right{
+	float:right;
+}
+.button:hover{
+	color:#000;
+	background-color:#ccc;
+}
+
+
+/* Hoverable Colours */
+.white,.hover-white:hover{
+	color:#000!important;
+	background-color:#fff;
+}
+.black,.hover-black:hover{
+	color:#fff!important;
+	background-color:#000;
+}
+/* End of Hoverable Colours */
+
 /* Other */
 .sticky {
   position: sticky;
@@ -396,14 +412,10 @@ img{
   margin: auto;
   width: 60%;
 }
-.cursoregg{
-	cursor: default;
-}
-.cybercitynetwork{
-color: #000A19;
-font-size: 24px;
-font-family: Agency FB, sans-serif;
-}
+/* End of Other*/
+
+
+/* Borders */
 .grooveborder {border-style: groove;
 border: 1px solid white;
 padding: 1px;
@@ -411,23 +423,32 @@ background: rgba(192, 223, 229, 0.12)
 }
 .grooveborderheader {
 border: 1px solid white;
-border-style: solid solid none solid;}
+border-style: solid none none none;
+}
 .grooveborderbottom {
 border: 1px solid white;
 border-style: solid solid none solid;
 padding: 1px;
 background: rgba(192, 223, 229, 0.17)}
-.shadowtext{text-shadow: 2px 2px 5px #000000;}
-.shadowtextwhite{text-shadow: 1px 1px 3px #7F7F7F;}
-.like,.hover-like:hover{color:#000!important;background-color:#647CB7!important}
-.overallbutton{transition: width 1s, height 1s, transform 2s;transition-delay: 0s;}
-.overallbutton:hover{
-  transform: rotate(360deg);}
+/* End of Borders*/
+
+
+/* Text shadow */
+.shadowtext{
+	text-shadow: 2px 2px 5px #000000;
+}
+/* End of Text shadow*/
+
+
+ /* Pictures */
 .programmingpic{
   margin-top: 5px;
   margin-bottom: 15px;
   margin-right: 10px;
 }
+/* End of Pictures */
+
+
 /* Scrollbar */
 body::-webkit-scrollbar{
 	width: 15px;
@@ -449,62 +470,118 @@ body::-webkit-scrollbar-thumb:hover{
 	margin-right: auto;
 	border: 3px solid #052C42;
 }
+/* End of Scrollbar */
 
-.tablink {
-  background-color: #434987;
-  color: white;
-  float: left;
-  border: solid 1px;
-  outline: none;
-  cursor: pointer;
-  padding: 14px 16px;
-  font-size: 19px;
-  width: 25%;
-}
-
-.tablink:hover {
-  background-color: #7C8CA5;
-}
-
-.tabcontent {
-  color: white;
-  display: none;
-  padding: 100px 20px;
-  height: 100%;
-}
 
 /* Tabs 2 */
 .tab2 {
-  overflow: hidden;
-  background-image: url(blueboi.jpg);
+	overflow: hidden;
+	background-image: url(blueboi.jpg);
 }
 
-/* Style the buttons inside the tab */
 .tab2 button {
-  border: solid 1px white;
-  border-style: none solid solid solid;
-  display: block;
-  background-color: #434987;
-  width: 25%;
-  color: white;
-  float: left;
-  outline: none;
-  cursor: pointer;
-  padding: 10px 12px;
-  transition: 0.3s;
-  font-size: 17px;
-
+	border: solid 1px white;
+	border-style: none solid solid solid;
+	display: block;
+	background-color: #434987;
+	width: 25%;
+	color: white;
+	float: left;
+	outline: none;
+	cursor: pointer;
+	padding: 10px 12px;
+	transition: 0.3s;
+	font-size: 17px;
 }
 
-/* Change background color of buttons on hover */
 .tab2 button:hover {
-  background-color: #7C8CA5;
+	background-color: #7C8CA5;
 }
 
-/* Create an active/current "tab button" class */
 .tab2 button.active {
-  background-color: #1D3247;
+	background-color: #1D3247;
 }
+/* End of Tabs 2*/
+
+
+/* Navbar */
+.navbar {
+	overflow: hidden;
+	background-color: #434987;
+}
+
+.navbar a {
+	float: left;
+	font-size: 16px;
+	color: white;
+	text-align: center;
+	padding: 15px 16px;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.dropdown {
+	float: left;
+	overflow: hidden;
+}
+
+.dropdown .dropbtn {
+	font-size: 16px;  
+	border: none;
+	outline: none;
+	color: white;
+	padding: 15px 16px;
+	background-color: inherit;
+	font-family: inherit;
+	margin: 0;
+	cursor: pointer;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+	background-color: #7C8CA5;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+
+.dropdown-content a {
+	float: none;
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+}
+
+.dropdown-content a:hover {
+	background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+/* Navbar items */
+.cybercitynetwork{
+	color: #000A19;
+	font-size: 24px;
+	font-family: Agency FB, sans-serif;
+}
+.cybercitynetwork-heading{
+	color: #D6E7F9;
+	margin:0;
+	float:right;
+	font-family: Agency FB, sans-serif;
+}
+.navitem{
+	float:right;
+}
+/* End of Navbar*/
 
 
 #Home {background-image: url("pictures/bacc.png");

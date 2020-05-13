@@ -4,6 +4,7 @@
 		.wrapper{
 			position: absolute;
 			margin: 140px 480px;
+			z-index: -1;
 		}
 
 		.line{
