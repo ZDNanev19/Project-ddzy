@@ -4,9 +4,9 @@
 <title>CyberCityNetwork Present</title>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="shortcut icon" href="images/cybercity.ico">
+		<link rel="shortcut icon" href="images/cybericon.ico">
 		<link rel="stylesheet" href="CSS/cssboi.css">
-		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="CSS/style.css">
 		
 	</head>
 	
@@ -14,29 +14,53 @@
 	
 	  
 	<!-- HTML -->
-	<div class="content" style="max-width:1600px">
+	<div class="content" style="max-width:3000px">
 
 		<!-- Header -->
-		<header class="container center padding-48 headback grooveborderheader" style="background-image: url(images/deed.png)">
+		<header class="container center padding-48 " style="background-image: url(images/deed.png)">
 			<header class="display-container wide" id="home">
 				<div class="display-left padding-large">
-					<h1 class="text-white"></h1>
+					<h1 class="whitewords"></h1>
 				</div>
 				<h1 class="xxxlarge shadowtext"><b>Животa на един програмист</b></h1>
 				<h4 class="shadowtext">Добре дошли в блога, разказващ за <span class="tag">Живота на един програмист</span></h4>
 			</header>
 		</header>
-		<div class="sticky">
-		<button class="tablink sticky" onclick="openPage('Home', this, '#1D3247')" id="defaultOpen">Начало</button>
-		<button class="tablink sticky" onclick="openPage('News', this, '#1D3247')">Съвети</button>
-		<button class="tablink sticky" onclick="openPage('Contact', this, '#1D3247')">Контакти</button>
-		<button class="tablink" onclick="openPage('About', this, '#1D3247')">За сайта</button>
+		<div class="navbar">
+			<a class="tablink" onclick="openPage('Home', this, '#1D3247')" id="defaultOpen">Home</a>
+			<a class="tablink" onclick="openPage('News', this, '#1D3247')">News</a>
+			<div class="dropdown">
+				<button class="dropbtn tablink" onclick="openPage('Contact', this, '#1D3247')">Contact
+				<i class="fa fa-caret-down"></i>
+				</button>
+				
+				<div class="dropdown-content">
+					<a href="#">Link 1</a>
+					<a href="#">Link 2</a>
+					<a href="#">Link 3</a>
+				</div>
+			</div> 
+			
+			<div class="dropdown">
+				<button class="dropbtn tablink" onclick="openPage('About', this, '#1D3247')">About
+					<i class="fa fa-caret-down"></i>
+				</button>
+				<div class="dropdown-content">
+					<a href="#">Link 1</a>
+					<a href="#">Link 2</a>
+					<a href="#">Link 3</a>
+				</div>
+			</div>
+			<a class="tablink"><img src="images/cybericon.ico" width="23px"/></a>
+			<a href="https://www.facebook.com/codingburgas/" class="tablink" target="_blank"><img src="images/facebook.png" width="18px" height="auto"></img></a>
+			<a href="https://codingburgas.bg/" class="tablink" target="_blank"><img src="images/pgkpi.png" alt="out logo" width="21px" height="auto"></img></a>
+			<h1 class="cybercitynetwork-heading tablink">CyberCityNetwork   </h1>
 		</div>
 		<!-- End of Header -->
 
 
 		<!-- Grid -->
-		<div class="row padding border tabcontent" id="Home">
+		<div class="row padding tabcontent" id="Home">
 
 			<!-- Blog entries -->
 			<div class="centerdiv">
@@ -49,13 +73,13 @@
 						  <p class="whitewords">Когато някой спомене нещо за професията ”програмист”, повечето хора се сещат за човек, който си играе 2 часа на компюта си и животът му е изпълнен с разнообразие, и си
 						  почива в хубава къща, намираща се на прекрасна плажна ивица или в някоя планина. Понякога това е вярно, но не винаги.</p>
 						  <p class="whitewords">Има няколко вида програмисти, но общото между тях е, че всеки от тях научава нови неща. 
-						  В различни проекти, програмистът трябва да бъде flexible(гъвкав) и най-важното е да бъде добре организиран.</p> <span class="transparentwords"><a href="egg.html" class="cursoregg"> Нещо тайно</a></span></p>
+						  В различни проекти, програмистът трябва да бъде flexible(гъвкав) и най-важното е да бъде добре организиран.</p>
 					</div>
 				</div>
 				<!-- End of Blog enttry1 -->
 
 				<!-- Blog entry2 -->
-				<div class="container  margin padding-large grooveborder">
+				<div class="container  margin padding-large grooveborder whitewords">
 					<div>
 						<h3  class="center">Видове програмисти</h3>
 						
@@ -143,8 +167,8 @@
 				<!-- End of Blog entry3 -->
 			  
 				<!-- Blog entry -->
-				<div class="container  margin padding-large grooveborder">
-					<div>
+				<div class="container  margin padding-large grooveborder whitewords">
+
 						<h3 class="center">Да завършим с това, че...</h3>
          
 						<p class="whitewords">Негативите отблъскват някои хора, на други засилват желанието им да работят тази професия. Програмирането не е за всеки, но не е и за никого. Дори и да се учи в училище за програмиране, не значи, че трябва да стане програмист от човека. Всеки има мнение за нещата, които са около него и може да стане какъвто си иска. А това да си програмист e като ниво в игра с много предизвикателства, а оръжията са твоите знания. Краят на нивото е успехът.</p>
@@ -157,8 +181,6 @@
 							”Животът на един програмист”<br>
 					
 						</p>
-				
-					</div>
 				</div>
 			</div>
 			<!-- END BLOG ENTRIES -->
@@ -324,13 +346,11 @@
 			</div>
 		</div>
 	 <!-- END GRID -->
-	 
-	</div>
 	<!-- END of tab -->
 
 
 	<!-- id News -->
-	<div id="News" class="tabcontent row padding border">
+	<div id="News" class="tabcontent row padding">
 	
 		<div class="tab2">
 		  <button class="tablinks" onclick="TabContent2(event, 'tab1')" id="defaultOpen">Категория 1</button>
@@ -491,7 +511,7 @@
 	
 	
 	<!-- id Contact -->
-	<div id="Contact" class="tabcontent row padding border">
+	<div id="Contact" class="tabcontent row padding">
 		<div class="centerdiv">
 			<div class="container margin padding-large grooveborder">
 				<div class="center">
@@ -516,8 +536,8 @@
 						<h4>Последвайте ни</h4>
 					</div>
 					<div class="bar black hide-small">
-						<a href="https://www.facebook.com/codingburgas/" class="bar-item button" target="_blank"><img src="images/facebook.png" width="18px" height="auto"></img></a>
-						<a href="https://codingburgas.bg/" class="bar-item button" target="_blank"><img src="images/pgkpi.png" alt="out logo" width="21px" height="auto"></img></a>
+						
+						
 					</div>
 				</div>
 			</div>
@@ -527,7 +547,7 @@
 
 
 	<!-- id About -->
-	<div id="About" class="tabcontent row padding border">
+	<div id="About" class="tabcontent row padding">
 		<!-- Blog entry -->
 		
 		<div class="centerdiv">
@@ -618,7 +638,7 @@
 		
 	</div>
 	<!-- END OF TAB -->
-
+	</div>
 
 	<!-- Footer -->
 	<footer class=" container footerback grooveborderheader" style="padding:32px; background-image: url(images/deed2.png)">
