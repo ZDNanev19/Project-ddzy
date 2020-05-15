@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+	<head>
+<title>CyberCityNetwork Present</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="shortcut icon" href="../images/cybericon.ico">
+		<link rel="stylesheet" href="../CSS/cssboi.css">
+	</head>
+	
+	<body style="background-image: url(../images/bacc.png)"> 
+	
+	  
+	<!-- HTML -->
+	<div class="content" style="max-width:6000px">
+
+		<!-- Header -->
+		<header class="container center padding-48 header-footer" style="background-image: url(../images/deed.png)">
+			<header class="display-container wide" id="home">
+				<div class="display-left padding-large">
+					<h1 class="whitewords"></h1>
+				</div>
+				<h1 class="xxxlarge shadowtext"><b>Животa на един програмист</b></h1>
+				<h4 class="shadowtext">Добре дошли в блога, разказващ за <span class="tag">Живота на един програмист</span></h4>
+			</header>
+		</header>
+		<div class="navbar sticky">
+			<a href="../home.html">Home</a>
+			<a href="news.html">News</a>
+			<a href="contact.html">Contact </a>
+			<a href="about.html">About</a>
+			<a class="tablink"><img src="../images/cybericon.ico" width="23px"/></a>
+			<a href="https://www.facebook.com/codingburgas/" class="tablink" target="_blank"><img src="../images/facebook.png" width="18px" height="auto"></img></a>
+			<a href="https://codingburgas.bg/" class="tablink" target="_blank"><img src="../images/pgkpi.png" alt="out logo" width="21px" height="auto"></img></a>
+			<h1 class="cybercitynetwork-heading tablink">CyberCityNetwork   </h1>
+		</div>
+		<!-- End of Header -->
+
+
+		
+	<!-- id News -->
+	<div class="row padding">
+	
+		<div class="gallery">
+			<a href="news-articles/article1.html"><img src="../images/image-for-card.jpg" alt="5 Terre"></a>
+			<div class="description">
+				<a href="news-articles/article1.html" class="link-picture" ><p>Видове професии, които включват програмиране</p></a>
+			</div>
+		</div>
+		<div class="gallery">
+			<a href="news-articles/article2.html"><img src="../images/image-for-card2.png" alt="5 Terre"></a>
+			<div class="description">
+				<a href="news-articles/article2.html" class="link-picture" ><p>Плюсове и минуси на професията "програмист"</p></a>
+			</div>
+		</div>
+		<div class="gallery">
+			<a href="news-articles/article3.html"><img src="../images/image-for-card3.jpg" alt="5 Terre"></a>
+			<div class="description">
+				<a href="news-articles/article3.html" class="link-picture" ><p>Личностни качества на програмиста</p></a>
+			</div>
+		</div>
+	
+	</div>
+	<!-- END OF TAB-->
+	
+	
+
+	<!-- Footer -->
+	<footer class="header-footer container grooveborderheader" style="padding:32px; background-image: url(../images/deed2.png)">
+		<a href="#" class=" button  black  padding-large  margin-bottom"><img src="../images/arrow.png" class="margin-right" width="15px" height="auto"><b>До началото</b></a>
+		<p><span class="whitewords">Създаден от <span><span class="cybercitynetwork"><b>CyberCityNetwork</b></span></p>
+	</footer>
+
+	<script>
+		// Toggle between hiding and showing blog replies/comments
+		document.getElementById("myBtn").click();
+		function myFunction(id) {
+		  var x = document.getElementById(id);
+		  if (x.className.indexOf(" show") == -1) {
+			x.className += "  show";
+		  } else { 
+			x.className = x.className.replace("  show", "");
+		  }
+		}
+
+		function likeFunction(x) {
+		  x.style.fontWeight = "bold";
+		  x.innerHTML = "✓ Liked";
+		}
+	</script>
+
+	<script>
+		function openPage(pageName,elmnt,color) {
+		  var i, tabcontent, tablinks;
+		  tabcontent = document.getElementsByClassName("tabcontent");
+		  for (i = 0; i < tabcontent.length; i++) {
+			tabcontent[i].style.display = "none";
+		  }
+		  tablinks = document.getElementsByClassName("tablink");
+		  for (i = 0; i < tablinks.length; i++) {
+			tablinks[i].style.backgroundColor = "";
+		  }
+		  document.getElementById(pageName).style.display = "block";
+		  elmnt.style.backgroundColor = color;
+		}
+
+		// Get the element with id="defaultOpen" and click on it
+		document.getElementById("defaultOpen").click();
+		
+		function TabContent2(evt, tabName) {
+		  var i, tabcontent, tablinks;
+		  tabcontent = document.getElementsByClassName("tabcontent2");
+		  for (i = 0; i < tabcontent.length; i++) {
+			tabcontent[i].style.display = "none";
+		  }
+		  tablinks = document.getElementsByClassName("tablinks");
+		  for (i = 0; i < tablinks.length; i++) {
+			tablinks[i].className = tablinks[i].className.replace(" active", "");
+		  }
+		  document.getElementById(tabName).style.display = "block";
+		  evt.currentTarget.className += " active";
+		}
+	</script>
+
+	</body>
+</html>
