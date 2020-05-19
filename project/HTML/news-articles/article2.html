@@ -7,6 +7,7 @@
 		<link rel="shortcut icon" href="../../images/cybericon.ico">
 		<link rel="stylesheet" href="../../CSS/cssboi.css">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<script src="https://kit.fontawesome.com/a076d05399.js"></script>
 	</head>
 	
 	<body style="background-image: url(../../images/bacc.png)"> 
@@ -31,7 +32,7 @@
 			<a href="../contact.html">Contact </a>
 			<a href="../about.html">About</a>
 			<a class="tablink"><img src="../../images/cybericon.ico" width="23px"/></a>
-			<a href="https://www.facebook.com/codingburgas/" class="tablink" target="_blank"><img src="../../images/facebook.png" width="18px" height="auto"></img></a>
+			<a href="https://www.facebook.com/codingburgas/" class="tablink" target="_blank"><i class="fab fa-facebook-square" style="font-size:20px;"></i></a>
 			<a href="https://codingburgas.bg/" class="tablink" target="_blank"><img src="../../images/pgkpi.png" alt="out logo" width="21px" height="auto"></img></a>
 			<h1 class="cybercitynetwork-heading tablink">CyberCityNetwork   </h1>
 		</div>
@@ -99,6 +100,26 @@
 				</div>
 			</div>
 			<!-- End of Blog entry7 -->
+			
+			<div class="card">
+        <div class="card-colour">
+          <button onclick="myFunction('Demo1')" class="button block theme-l1 left-align"><i class="fa fa-circle-o-notch fa-fw margin-right"></i>Tab1</button>
+          <div id="Demo1" class="hide container">
+            <p>Some text..</p>
+          </div>
+          <button onclick="myFunction('Demo2')" class="button block theme-l1 left-align"><i class="fa fa-calendar-check-o fa-fw margin-right"></i>Tab2</button>
+          <div id="Demo2" class="hide container">
+            <p>Some other text..</p>
+          </div>
+          <button onclick="myFunction('Demo3')" class="button block theme-l1 left-align"><i class="fa fa-users fa-fw margin-right"></i>Probably Tab3</button>
+          <div id="Demo3" class="hide container">
+         <div class="row-padding">
+         <br>
+         </div>
+          </div>
+        </div>      
+      </div>
+			
 		</div>
 	</div>
 	<!-- END OF TAB-->
@@ -106,7 +127,7 @@
 	
 
 	<!-- Footer -->
-	<footer class="header-footer container grooveborderheader" style="padding:32px; background-image: url(../../images/deed2.png)">
+	<footer class="header-footer container grooveborderheader" style="padding:22px; background-image: url(../../images/deed2.png)">
 		<a href="#" class=" button  black  padding-large  margin-bottom"><img src="../../images/arrow.png" class="margin-right" width="15px" height="auto"><b>До началото</b></a>
 		<p><span class="whitewords">Създаден от <span><span class="cybercitynetwork"><b>CyberCityNetwork</b></span></p>
 	</footer>
@@ -160,6 +181,18 @@
 		  document.getElementById(tabName).style.display = "block";
 		  evt.currentTarget.className += " active";
 		}
+		
+		function myFunction(id) {
+  var x = document.getElementById(id);
+  if (x.className.indexOf("show") == -1) {
+    x.className += " show";
+    x.previousElementSibling.className += " theme-d1";
+  } else { 
+    x.className = x.className.replace("show", "");
+    x.previousElementSibling.className = 
+    x.previousElementSibling.className.replace(" theme-d1", "");
+  }
+}
 	</script>
 
 	</body>
