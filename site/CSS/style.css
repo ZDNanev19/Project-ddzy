@@ -322,3 +322,8 @@ body::-webkit-scrollbar-thumb:hover{
 	padding: 220px;
 	color:white;
 }
+
+.quarter{
+	width:24.99999%;
+	float:left;
+}
