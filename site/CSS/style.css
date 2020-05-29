@@ -180,8 +180,8 @@ body{
 
 
 /* Articles */
-.third{
-  width:33%;
+.quarter{
+  width:24.7%;
   float: left;
   margin-right: 2px;
   margin-left: 2px;
@@ -301,29 +301,39 @@ body::-webkit-scrollbar-thumb:hover{
 /* Tab IDs */
 #home{
 	background-image: url(../images/home-card.png);
+	background-repeat: no-repeat;
+	background-size: cover;
 	padding: 230px;
 	color:white;
 	text-shadow: 2px 2px 5px #000000;
 }
 #articles{
 	background-image: url(../images/articles.png);
+	background-repeat: no-repeat;
+	background-size: cover;
 	padding: 230px;
 	color:white;
 	text-shadow: 2px 2px 5px #000000;
 }
 #contact{
 	background-image: url(../images/city.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
 	padding: 230px;
 	color:white;
 	text-shadow: 2px 2px 5px #000000;
 }
 #team{
 	background-image: url(../images/team.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
 	padding: 220px;
 	color:white;
 }
-
-.quarter{
-	width:24.99999%;
-	float:left;
+#article1{
+	background-image: url(../images/article1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 220px;
+	color:white;
 }
