@@ -103,8 +103,8 @@ body{
 .padding-320{
 	padding-bottom:320px
 }
-.padding-390{
-	padding-bottom:390px
+.padding-360{
+	padding-bottom:360px
 }
 
 /* Margin */
@@ -200,7 +200,7 @@ body{
 }
 .gallery img{
 	width: 100%;
-	height: 250px;
+	height: 220px;
 }
 .desd-p{
 	text-decoration: none;
@@ -332,6 +332,27 @@ body::-webkit-scrollbar-thumb:hover{
 }
 #article1{
 	background-image: url(../images/article1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 220px;
+	color:white;
+}
+#article2{
+	background-image: url(../images/article2.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 220px;
+	color:white;
+}
+#article3{
+	background-image: url(../images/article3.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 220px;
+	color:white;
+}
+#article4{
+	background-image: url(../images/article4.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	padding: 220px;
